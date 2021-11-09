@@ -5,14 +5,17 @@
 //   primeiro número pelo segundo. Sabe-se que não é permitido o número zero.
 float primeiro_numero, segundo_numero, total ;
   
-void interacao(){
+void interface(){
  printf("digite o primeiro numero : ");
  scanf("%f",&primeiro_numero);
  printf("digite o segundo numero : ");
  scanf("%f",&segundo_numero);
+ }
+
+void verificao(float primeiro_numero, float segundo_numero){ 
  if (segundo_numero==0){
     printf("zero no divisor nao e uma divisao valida outra vez ");
-    interacao();
+    interface();
     }
  else {
     total= primeiro_numero/segundo_numero;
@@ -21,5 +24,6 @@ void interacao(){
 }
 
 void main(){
- interacao() ;
+ interface() ;
+ verificao(primeiro_numero,segundo_numero);
 }
