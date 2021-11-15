@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-void main(){
+int main(){
  char name[10];
  printf("digite o nome : ");
- scanf("%c",&name);   
- printf("ola %d",name);
-
+ scanf(" %c",&name);   
+ printf("ola %s",name);
+ return 0 ;
 }
