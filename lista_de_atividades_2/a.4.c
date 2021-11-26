@@ -12,6 +12,7 @@ int main(){
     printf("[1] media\n[2] diferenca\n[3] produto\n[4] Divisao\ndigite sua opcao : ");
     scanf("%d",&opcao);
     
+    if(opcao > 0 && opcao <= 4 ){
     switch (opcao ) {
         case 1 :
             resultado = (num_1 + num_2) / 2 ;
@@ -32,27 +33,10 @@ int main(){
         }else{
             printf("nao é possivel dividir por zero ");
         }
-            
-            
             break;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    }else {
+        printf("opcao incoerrente !");
     }
 
 
