@@ -5,16 +5,11 @@ int main(){
     printf("digite o decimal : ");
     scanf("%d",&decimal);
     //coeficiente=decimal/2;
-
-  while(decimal >1){
+    do{
       binario=decimal%2;
-
       decimal=decimal/2;
       //printf("decimal %d \n",decimal);
       printf("%d ",binario);
-      if (decimal == 1){
-        printf("%d",decimal);
-      }
-   }
+    }while(decimal >= 1);
    return 0 ;
 }
