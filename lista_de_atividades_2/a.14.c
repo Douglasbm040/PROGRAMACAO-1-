@@ -10,10 +10,10 @@ int main(){
     scanf("%d",&tipo_de_investimento);
     
     if(tipo_de_investimento == 1){
-        capital = capital + ( capital * 0.0005);
+        capital = capital + ( capital * 0.005);
         printf("o investimento da poupanca rendem %.2f",capital);
     }else if (tipo_de_investimento == 2 ){
-        capital = capital + ( capital * 0.004);
+        capital = capital + ( capital * 0.04);
         printf("o investimento em fundos de renda fixa rendem %.2f",capital);
 
     }else {
