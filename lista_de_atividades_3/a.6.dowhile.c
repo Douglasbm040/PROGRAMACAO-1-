@@ -6,13 +6,11 @@ int main(){
     printf("Insira um valor para o qual deseja calcular seu fatorial: ");
     scanf("%d", &n);
     fat = 1;
-
-    while( n > 1){
-
+    do{ 
         fat = fat *  n ;    
         n = n - 1 ;
-    
-    }
+    }while( n > 1);
+
     printf("\nFatorial calculado: %d", fat);
     
     
