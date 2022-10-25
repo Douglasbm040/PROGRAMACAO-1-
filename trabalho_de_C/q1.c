@@ -2,7 +2,9 @@
 
 int main()
 {
-    printf("Hello World");
-    scanf("%d",);
+    int valor ;
+    printf("digite um numero : \n");
+    scanf("%d",&valor);
+    printf("voce digitou %d",valor);
     return 0;
 }
